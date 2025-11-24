@@ -49,13 +49,23 @@ You need to have the following software installed your machine:
   * Windows: Visual Studio 2022 17.14.13 (MSVC 19.44.35215)
   * Ubuntu, Debian: gcc 12.2.0, 13.3.0 and make 4.3
 
+### Using Conda (Optional)
+
+Alternatively, use the provided `environment.yml` to set up dependencies:
+
+```bash
+conda env create -f environment.yml
+conda activate tremolo-juce
+```
+
 ## 🚀 Getting Started
 
 **Detailed instructions on the setup process [are described in the course.](https://www.wolfsoundacademy.com/juce)**
 
-1. Click “Use this template” on GitHub to create your own copy and begin your project.
+1. Click "Use this template" on GitHub to create your own copy and begin your project.
 2. Clone **your repository** locally.
-3. Build the *complete/* plugin
+3. (Optional) Set up conda environment: `conda env create -f environment.yml && conda activate tremolo-juce`
+4. Build the *complete/* plugin
    1. Open the *complete/* folder in CLion, or
    2. In the main repo directory execute
 
@@ -71,7 +81,7 @@ Build artifacts will be located at *complete/cmake-build/TremoloCoursePlugin_art
 
 ## 📂 Structure
 
-This repository is a template. Click “Use this template” on GitHub to create your own copy and begin your project.
+This repository is a template. Click "Use this template" on GitHub to create your own copy and begin your project.
 
 The plugin project is present in two folders:
 

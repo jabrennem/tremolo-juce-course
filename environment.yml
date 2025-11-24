@@ -1,0 +1,6 @@
+name: tremolo-juce
+channels:
+  - conda-forge
+dependencies:
+  - cmake>=3.25
+  - make
