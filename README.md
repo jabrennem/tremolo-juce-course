@@ -79,6 +79,15 @@ The first build will take the most time because the dependencies (CPM and JUCE) 
 
 Build artifacts will be located at *complete/cmake-build/TremoloCoursePlugin_artefacts/Debug*.
 
+### Running the Standalone App
+
+To run the standalone application on macOS:
+
+```bash
+cd complete
+./cmake-build/TremoloCoursePlugin_artefacts/Debug/Standalone/Tremolo.app/Contents/MacOS/Tremolo
+```
+
 ## 📂 Structure
 
 This repository is a template. Click "Use this template" on GitHub to create your own copy and begin your project.

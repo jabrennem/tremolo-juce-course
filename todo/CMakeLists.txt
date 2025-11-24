@@ -69,7 +69,7 @@ juce_add_plugin(
   VERSION
     0.0.0
   COMPANY_NAME
-    "Joshua Brenneman"
+    "JoshuaBrenneman"
   PLUGIN_MANUFACTURER_CODE
     JoBr
   PLUGIN_CODE
@@ -87,7 +87,7 @@ juce_add_plugin(
   VST3_AUTO_MANIFEST
     FALSE
   COPY_PLUGIN_AFTER_BUILD
-    FALSE
+    TRUE
 )
 
 # Configures the JUCE sources included in the plugin target.
